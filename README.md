@@ -1,5 +1,6 @@
 # trajectory_similarity
-Calculate the spatiotemporal similarity of two trajectories in GPX format using DISSIM or TRADIS 
+Calculate the spatiotemporal similarity of two trajectories in GPX format using DISSIM or TRADIS.
+The date and timezone parts of the timestamps will be stripped before similarity is determined.
 ## Usage
 Clone the repository, navigate to the root directory of the project and build by executing
 
